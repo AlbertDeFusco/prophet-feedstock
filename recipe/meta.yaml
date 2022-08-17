@@ -6,7 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  path: ../
+  git_url: https://github.com/blakemoya/prophet.git
+  git_rev: v2022.08
 
 build:
   number: 0
